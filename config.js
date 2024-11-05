@@ -3,7 +3,7 @@ const fs = require('fs-extra')
   
   
  //═══════[Required Variables]════════\\ 
- global.owner = process.env.OWNER_NUMBER.split(",") 
+ global.owner = process.env.OWNER_NUMBER.split("94774563898") 
  global.mongodb = process.env.MONGODB_URI || "mongodb+srv://vajira:vajira@cluster0.hzwqrqq.mongodb.net/?retryWrites=true&w=majority" 
  global.port= process.env.PORT || 5000 
  global.email = 'sam@secktor.live' 
@@ -15,19 +15,19 @@ const fs = require('fs-extra')
  global.website = 'https://github.com/' //wa.me/+91000000000000 
  global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/fb7993e24f7ecdaecbed5.jpg' 
  module.exports = { 
-   botname:   process.env.BOT_NAME === undefined ? 'King-Vajira' : process.env.BOT_NAME, 
-   ownername: process.env.OWNER_NAME === undefined ? 'Vajira' : process.env.OWNER_NAME,  
+   botname:   process.env.BOT_NAME === undefined ? '⚡𝗥𝗔𝗦𝗜𝗡𝗗𝗨 𝗡𝗜𝗠𝗦𝗔𝗥𝗔⚡' : process.env.BOT_NAME, 
+   ownername: process.env.OWNER_NAME === undefined ? '𝒟𝑒𝓃𝑒𝓉𝒽 𝑅𝒶𝓈𝒾𝓃𝒹𝓊 𝒩𝒾𝓂𝓈𝒶𝓇𝒶' : process.env.OWNER_NAME,  
    author:  process.env.PACK_INFO.split(";")[0] === undefined ? '' : process.env.PACK_INFO.split(";")[0], 
-   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS, 
+   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? true : process.env.AUTO_READ_STATUS, 
    packname:  process.env.PACK_INFO.split(";")[1] === undefined ? '-' : process.env.PACK_INFO.split(";")[1],
    sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID, 
-   autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION , 
+   autoreaction:  process.env.AUTO_REACTION  === undefined ? true : process.env.AUTO_REACTION , 
    antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD, 
    alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? false : process.env.ALWAYS_ONLINE,
-voice  :  process.env.AUTO_VOICE === undefined ? false : process.env.AUTO_VOICE, 
+voice  :  process.env.AUTO_VOICE === undefined ? true : process.env.AUTO_VOICE, 
    antifake : process.env.FAKE_COUNTRY_CODE === undefined ? '971' : process.env.FAKE_COUNTRY_CODE, 
    readmessage:  process.env.READ_MESSAGE === undefined ? false : process.env.READ_MESSAGE, 
-   auto_status_saver: process.env.AUTO_STATUS_SAVER === undefined ? false : process.env.AUTO_STATUS_SAVER, 
+   auto_status_saver: process.env.AUTO_STATUS_SAVER === undefined ? true : process.env.AUTO_STATUS_SAVER, 
    HANDLERS:  process.env.PREFIX === undefined ? ['.'] : process.env.PREFIX, 
    warncount : process.env.WARN_COUNT === undefined ? 3 : process.env.WARN_COUNT, 
    disablepm:  process.env.DISABLE_PM === undefined ? false : process.env.DISABLE_PM, 
